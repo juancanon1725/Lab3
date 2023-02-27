@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: edu.eci.cvds.tdd.registry.RegistryTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in edu.eci.cvds.tdd.registry.RegistryTest
+testDead(edu.eci.cvds.tdd.registry.RegistryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: edu.eci.cvds.tdd.registry.Registry.registerVoter(Ledu/eci/cvds/tdd/registry/Person;)Ledu/eci/cvds/tdd/registry/RegisterResult;
+	at edu.eci.cvds.tdd.registry.RegistryTest.testDead(RegistryTest.java:30)
+
+testUnderage(edu.eci.cvds.tdd.registry.RegistryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: edu.eci.cvds.tdd.registry.Registry.registerVoter(Ledu/eci/cvds/tdd/registry/Person;)Ledu/eci/cvds/tdd/registry/RegisterResult;
+	at edu.eci.cvds.tdd.registry.RegistryTest.testUnderage(RegistryTest.java:23)
+
+validateRegistryResult(edu.eci.cvds.tdd.registry.RegistryTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoSuchMethodError: edu.eci.cvds.tdd.registry.Registry.registerVoter(Ledu/eci/cvds/tdd/registry/Person;)Ledu/eci/cvds/tdd/registry/RegisterResult;
+	at edu.eci.cvds.tdd.registry.RegistryTest.validateRegistryResult(RegistryTest.java:16)
+
+testInvalidAge(edu.eci.cvds.tdd.registry.RegistryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: edu.eci.cvds.tdd.registry.Registry.registerVoter(Ledu/eci/cvds/tdd/registry/Person;)Ledu/eci/cvds/tdd/registry/RegisterResult;
+	at edu.eci.cvds.tdd.registry.RegistryTest.testInvalidAge(RegistryTest.java:44)
+
+testDuplicate(edu.eci.cvds.tdd.registry.RegistryTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: edu.eci.cvds.tdd.registry.Registry.registerVoter(Ledu/eci/cvds/tdd/registry/Person;)Ledu/eci/cvds/tdd/registry/RegisterResult;
+	at edu.eci.cvds.tdd.registry.RegistryTest.testDuplicate(RegistryTest.java:37)
+
